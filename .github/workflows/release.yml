@@ -44,3 +44,5 @@ jobs:
 
       - name: Publish Launcher
         run: npm run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN4 }}
